@@ -1,0 +1,27 @@
+# PDF rendering and embedded text extraction (fast, no poppler dependency)
+# NOTE: do NOT install the separate PyPI package 'fitz'; PyMuPDF already provides the fitz module.
+pymupdf
+
+# Image IO / conversions
+pillow
+
+# Preprocessing + segmentation in native code (headless = no GUI deps)
+opencv-python-headless
+
+# CLI progress bars
+tqdm
+
+# Model runtime (CPU or GPU depending on your torch install)
+torch
+
+# TrOCR inference stack
+transformers[sentencepiece]
+sentencepiece
+protobuf
+
+# Build helpers
+setuptools
+wheel
+
+# Optional: only needed if you plan downstream token counting for LLM pipelines
+tiktoken
