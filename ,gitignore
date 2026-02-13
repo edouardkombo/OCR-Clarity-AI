@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.DS_Store
+
+# outputs
+*.txt
+*.jsonl
+*.metrics.json
+*.deviation.json
+clarity_baseline.metrics.json
+
+# pdf samples
+output/
