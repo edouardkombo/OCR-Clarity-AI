@@ -1,0 +1,12 @@
+# Optional heavier engines for higher printed/multilingual accuracy.
+# Install only if you want them:
+#   pip install -r requirements-extras.txt
+#
+# PaddleOCR (printed multilingual):
+paddleocr>=2.7.0.3
+# Choose ONE paddlepaddle build depending on platform:
+# paddlepaddle==2.6.1  # Linux CPU example
+# paddlepaddle-gpu==2.6.1  # Linux CUDA example
+#
+# docTR (det+rec pipeline):
+python-doctr[torch]>=0.8.1
